@@ -28,11 +28,15 @@ a{
 }
 
 li{
+   font-family: 'DMSans-Regular', sans-serif;
+   font-weight: 400;
   list-style: none;
 }
 
 .container{
   max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
 
 .menu{
@@ -49,15 +53,92 @@ li{
 }
 
 .logo{
+  display: flex;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 700;
   justify-self: left;
   font-size: 24px;
+  margin-left: 120px;
+  color: #244D4D;
 }
 
 .loupe {
-    justify-self: right;
+  display: flex;
+  position: absolute;
+  justify-self: right;
+  margin-right: 174px;
 }
 
 .menu-img {
+  display: flex;
   position: absolute;
   justify-self: right;
+  margin-right: 120px;
+}
+
+@media (max-width: 920px) {
+  .logo {
+    margin-left: 30px;
+  }
+  .loupe {
+    margin-right: 84px;
+  }
+  .menu-img {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 730px) {
+  .menu {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 650px) {
+  .menu {
+    margin-top: 70px;
+    position: absolute;
+    font-size: 12px;
+  }
+  .logo {
+    position: absolute;
+    justify-self: center;
+    font-size: 20px;
+    margin-left: 0px;
+  }
+  .loupe {
+    margin-top: 60px;
+    margin-right: 35px;
+  }
+  .menu-img {
+    margin-top: 60px;
+    margin-right: 0px;
+  }
+}
+
+.main-text {
+  margin-right: 120px;
+  justify-self: right;
+  background-color: #154444;
+  width: 580px;
+  height: 560px;
+}
+
+.main-img {
+  height: 560px;
+  width: 360px;
+  margin-left: 120px;
+  position: absolute;
+}
+
+.main-title {
+  margin-left: 151px;
+}
+
+.main-p {
+  margin-left: 151px;
+}
+
+.main-button {
+  margin-left: 151px;
 }
