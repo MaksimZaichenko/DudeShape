@@ -138,12 +138,17 @@ li{
   }
   .about-img{
     width: 400px !important;
+    height: 100% !important;
+    margin-left: 0 !important;
   }
   .h1-text{
     font-size: 21px !important;
-    margin-left: 80px !important;
+    margin-left: 30px !important;
   }
   .a-text{
+    font-size: 13px !important;
+  }
+  .a1-text{
     margin-left: 30px !important;
     font-size: 13px !important;
   }
@@ -254,9 +259,9 @@ button{
 
 .companies{
   display: flex;
-  gap: 85px;
+  gap: 60px;
   justify-self: center;
-  margin-right: 100px;
+  margin-right: 30px;
 }
 
 .about-text {
@@ -288,7 +293,9 @@ button{
 .about-img {
   position: absolute;
   display: flex;
-
+  width: 510px;
+  margin-left: 150px;
+  height: 610px;
 }
 
 .h1-text {
@@ -296,6 +303,8 @@ button{
   font-weight: 700;
   color: #244D4D;
   font-size: 32px;
+  margin-left: -60px;
+  position: absolute;
 }
 
 .p-text {
@@ -310,4 +319,20 @@ button{
   font-weight: 400;
   color: #383738;
   font-size: 18px;
+}
+
+.a1-text {
+  font-family: 'DMSans-Regular', sans-serif;
+  font-weight: 400;
+  color: #383738;
+  font-size: 18px;
+  margin-left: -60px;
+  margin-top: 80px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #244D4D;
+  border-radius: 50%;
 }
