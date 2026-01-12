@@ -88,45 +88,57 @@ li{
     justify-self: center !important;
     margin-top: 0px !important;
   }
-  .circle{
-    margin-right: 200px !important;
+  .circle{ 
+    width: 240px !important;
+    height: 220px !important;
+    margin-top: 150px !important;
+    position: absolute !important;
+
+  }
+  .customers-img {
+    width: 230px !important;
+    height: 240px !important;
+    margin-left: 75px !important;
+    margin-top: 140px !important;
+  }
+  .customers-text1 {
+    margin-left: 20px !important;
+    margin-top: 390px !important;
     justify-self: center !important;
+    font-size: 20px !important;
   }
-  .furniture-img {
-    width: 460px !important;
-    justify-self: center !important;
-  }
-  .furniture-text1 {
-    justify-self: center !important;
-    margin-right: 90px !important;
-    margin-top: 660px !important;
-  }
-  .furniture-text2{
-    justify-self:center !important ;
-    margin-top: 755px !important;
-  }
-  .feedback-img {
-    margin-right: 400px !important;
-    margin-top: 845px !important;
-    justify-self: center !important;
-  }
-  .feedback-text{
-    margin-right: 260px !important;
-    margin-top: 850px !important;
+  .customers-text2{
     font-size: 16px !important;
     justify-self: center !important;
+    margin-top: 450px !important;
+    width: 60% !important;
+    margin-left: 20px !important;
+  }
+  .feedback-img {
+    margin-top: 550px !important;
+    margin-left: 80px !important;
+  }
+  .feedback-text{
+    margin-top: 560px !important;
+    font-size: 13px !important;
+    margin-left: 140px !important;
   }
   .star-img{
-    margin-right: 310px !important;
-    justify-self: center !important;
+    margin-top: 575px !important;
+    margin-left: 140px !important;
   }
   .feedback-text2{
-    margin-right: 270px !important;
-    margin-top: 870px !important;
-    justify-self: center !important;
+    margin-right: 160px !important;
+    margin-top: 575px !important;
   }
   .furniture-img2{
     width: 100% !important;
+  }
+  .about {
+    position: absolute !important;
+  }
+  .furniture-block {
+    margin-top: 1300px !important;
   }
 }
   
@@ -153,12 +165,18 @@ li{
   .furniture-button {
     margin-top: 5px !important;
   }
+  .trusted-text {
+    margin-top: 500px;
+  }
 }
 
 @media (max-width: 730px) {
   .menu {
     gap: 25px;
     justify-self: center !important;
+  }
+  .furniture-block {
+    margin-top: 1000px !important;
   }
 }
 
@@ -183,6 +201,7 @@ li{
     margin-left: 0px !important;
     height: 460px;
     width: 360px !important;
+    margin-top: 490px;
   }
   .about-img{
     width: 400px !important;
@@ -393,11 +412,7 @@ margin-top: 140px;
 position: absolute;
 }
 
-.furniture{
-  margin-top: 450px;
-}
-
-.furniture-img {
+.customers-img {
 display: flex;
 width: 460px;
 height: 490px;
@@ -406,10 +421,19 @@ margin-left: 105px;
 margin-top: 140px;
 }
 
-.furniture-text2 {
+.customers-text1 {
+display: flex;
+position: absolute;
+margin-left: 690px;
+margin-top: 260px;
+font-family: 'Montserrat-Bold', sans-serif;
+font-weight: 700;
+}
+
+.customers-text2 {
 font-size: 20px;
 justify-self: right;
-margin-top: 335px;
+margin-top: 375px;
 position: absolute;
 font-family: 'DMSans-Regular', sans-serif;
 font-weight: 400;
@@ -418,7 +442,7 @@ font-weight: 400;
 .feedback-text {
 position: absolute;
 margin-left: 740px;
-margin-top: 430px;
+margin-top: 490px;
 font-size: 16px;
 font-family: 'DMSans-Regular', sans-serif;
 font-weight: 500;
@@ -428,20 +452,20 @@ font-weight: 500;
 display: flex;
 position: absolute;
 margin-left: 680px;
-margin-top: 430px;
+margin-top: 485px;
 }
 
 .star-img {
 display: flex;
 position: absolute;
 margin-left: 740px;
-margin-top: 455px;
+margin-top: 510px;
 }
 
 .feedback-text2 {
 position: absolute;
-margin-left: 765px;
-margin-top: 455px;
+margin-left: 760px;
+margin-top: 510px;
 font-size: 14px;
 font-family: 'DMSans-Regular', sans-serif;
 font-weight: 500;
@@ -546,15 +570,33 @@ font-weight: 500;
 }
 
 .furniture-main-img{
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 .furniture-main-img img{
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .swiper-button-next, .swiper-button-prev{
-    position:static;
-    width:41px;
-    height:41px;
+  position:static;
+  width:41px;
+  height:41px;
+}
+
+.shop-categories {
+  display: flex;
+  gap: 100px;
+  justify-self: center;
+  font-family: 'DMSans-Regular', sans-serif;
+  font-weight: 400;
+  color: #919090;
+  font-size: 24px;
+}
+
+.shop-main-text {
+  justify-self: center;
+  font-size: 32px;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 700;
+  color: #242424;
 }
