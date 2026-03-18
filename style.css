@@ -363,12 +363,10 @@ li{
   justify-self: center !important;
 }
 .customers-text1 {
-  margin-left: 0px !important;
-  justify-self: center !important;
+  margin-left: 90px !important;
 }
 .customers-text2 {
-  margin-left: 30px !important;
-  justify-self: center !important;
+  margin-left: 90px !important;
   margin-top: 445px !important;
 }
 .subscribe_main-text {
@@ -560,7 +558,7 @@ font-weight: 700;
 
 .customers-text2 {
 font-size: 20px;
-justify-self: right;
+margin-left: 690px;
 margin-top: 375px;
 position: absolute;
 font-family: 'DMSans-Regular', sans-serif;
