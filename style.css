@@ -388,6 +388,15 @@ li{
 .email_button {
   margin-left: 260px;
 }
+.loupe {
+  margin-right: -180px;
+}
+.menu-img {
+  margin-right: -210px;
+}
+.trusted-text {
+  text-align: center;
+}
 
 }
 
