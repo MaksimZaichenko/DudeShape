@@ -216,8 +216,14 @@ li{
 
 @media (max-width: 730px) {
   .menu {
-    gap: 25px;
-    justify-self: center !important;
+    align-items: center;
+    margin:30px 25px 0;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
   .furniture-block {
     margin-top: 1000px !important;
