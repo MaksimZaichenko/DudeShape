@@ -382,7 +382,7 @@ li{
   font-size: 11px !important;
 }
 .email_img {
-  margin-top: 62px !important;
+  margin-top: 65px !important;
   margin-left: 160px !important;
 }
 .name__input {
@@ -906,10 +906,6 @@ margin-top: 40px;
   width: 125px;
   height: 52px;
   margin-top: 43px;
-}
-
-.subscribe {
-  background-color: #F4F6F6;
 }
 
 .footer{
