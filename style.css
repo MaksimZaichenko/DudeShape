@@ -326,8 +326,8 @@ li{
   margin-left: 30px !important;
   }
 .customers_big_foto {
-  margin-left: 105px;
-  max-width: 360px;
+  margin-left: 105px !important;
+  max-width: 360px !important;
   }
 .customers__bg {
   background: #244D4D;
@@ -357,13 +357,14 @@ li{
   border-radius: 50%;
   overflow: hidden;
   top: 1px;
+  margin-left: -30px;
 }
   .customers_big_foto {
-  margin-left: 50px;
-  max-width: 260px;
+  margin-left: 50px !important;
+  max-width: 260px !important;
 }
   .customers__pt2 {
-  margin-left: 50px;
+  margin-left: 50px !important;
 }
 }
 
@@ -375,10 +376,10 @@ li{
   gap:24px;
 }
 .subscribe_main-text {
-  font-size: 23px !important;
+  font-size: 18px !important;
 }
 .subscribe_p-text {
-  font-size: 14px !important;
+  font-size: 11px !important;
 }
 .email_img {
   margin-top: 62px !important;
@@ -402,7 +403,14 @@ li{
 .main-img {
   max-width: 100%;
 }
-
+.customers__header {
+  display: flex;
+  font-size: 20px !important;
+}
+.customers__text {
+  font-size: 16px !important;
+  display: flex !important;
+}
 }
 
 .main-text {
