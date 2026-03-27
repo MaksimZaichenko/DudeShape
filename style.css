@@ -101,7 +101,6 @@ li{
   }
   .about-img{
     position: static !important;
-    justify-self: center;
   }
   .about-text{
     justify-self: center !important;
@@ -114,7 +113,7 @@ li{
     position: absolute !important;
   }
   .furniture-block {
-    margin-top: 1300px !important;
+    margin-top: 1100px !important;
   }
   .features__bottom {
   margin-top: 80px;
@@ -206,7 +205,7 @@ li{
     justify-content: center;
     }
   .furniture-block {
-    margin-top: 1000px !important;
+    margin-top: 900px !important;
   }
   .email_img {
     margin-left: 195px !important;
@@ -241,9 +240,8 @@ li{
     padding-bottom: 26px;
   }
   .about-img{
-    width: 400px !important;
+    max-width: 80% !important;
     height: 100% !important;
-    margin-left: 0 !important;
   }
   .h1-text{
     font-size: 21px !important;
@@ -258,16 +256,16 @@ li{
   }
   .quality{
     margin-top: 10px !important;
-    margin-left: 80px !important;
+    margin-left: 20px !important;
   }
   .secure{
-    margin-left: 80px !important;
+    margin-left: 20px !important;
   }
   .shpping{
-    margin-left: 80px !important;
+    margin-left: 20px !important;
   }
   .furniture-item2{
-    margin-top: 0px !important;
+    margin-top: 30px !important;
   }
   .footer__item1 {
     margin-left: 30px !important;
@@ -383,17 +381,17 @@ li{
   font-size: 14px !important;
 }
 .email_img {
-  position: absolute;
-  margin-top: 18px !important;
-  margin-left: 30px !important;
+  margin-top: 62px !important;
+  margin-left: 160px !important;
 }
 .name__input {
   position: absolute;
-  margin-top: 15px !important;
-  margin-left: 60px !important;
+  margin-top: 60px !important;
+  margin-left: 180px !important;
 }
 .email_button {
-  margin-left: 260px;
+  margin-left: 160px !important;
+  margin-top: 90px !important;
 }
 .loupe {
   margin-right: -180px;
@@ -499,7 +497,6 @@ justify-self: center;
 
 .about-img {
   position: absolute;
-  display: flex;
 }
 
 .h1-text {
@@ -533,7 +530,7 @@ font-weight: 400;
 color: #383738;
 font-size: 20px;
 margin-left: 10px;
-margin-top: 80px;
+margin-top: 40px;
 }
 
 .customers{
@@ -613,7 +610,7 @@ margin-top: 80px;
 }
 
 .furniture-block{
-  margin-top: 140px;
+  margin-top: 240px;
 }
 
 .furniture-box{
@@ -876,12 +873,12 @@ margin-top: 80px;
   font-size: 16px;
   font-family: 'DMSans-Regular', sans-serif;
   font-weight: 400;
+  margin-top: 20px;
 }
 
 .name__input {
   margin-left: 420px;
   border: none;
-  margin-top: 60px;
   font-size: 16px;
 }
 
@@ -900,6 +897,7 @@ margin-top: 80px;
   border: none;
   width: 125px;
   height: 52px;
+  margin-top: 43px;
 }
 
 .subscribe {
