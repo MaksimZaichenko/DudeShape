@@ -207,16 +207,11 @@ li{
   .furniture-block {
     margin-top: 900px !important;
   }
-  .email_img {
-    margin-left: 195px !important;
-  }
-  .name__input {
-    margin-left: 220px !important;
-  }
     .companies{
     flex-direction: column !important;
     align-items: center;
   }
+  
 }
 
 @media (max-width: 820px) {
@@ -291,7 +286,6 @@ li{
     margin-right: -210px;
     margin-top: -10px;
   }
- 
   .features__img {
     margin: 0;
   }
@@ -345,6 +339,19 @@ li{
   .customers__header br{
     display: none;
   }
+  .email_img {
+  margin-top: 65px !important;
+  margin-left: 10px !important;
+}
+.name__input {
+  position: absolute;
+  margin-top: 65px !important;
+  margin-left: 30px !important;
+  font-size: 13px !important;
+}
+.email_button {
+  margin-top: 90px !important;
+}
 }
 
 @media (max-width: 545px) {
@@ -381,19 +388,6 @@ li{
 .subscribe_p-text {
   font-size: 11px !important;
 }
-.email_img {
-  margin-top: 65px !important;
-  margin-left: 160px !important;
-}
-.name__input {
-  position: absolute;
-  margin-top: 60px !important;
-  margin-left: 180px !important;
-}
-.email_button {
-  margin-left: 160px !important;
-  margin-top: 90px !important;
-}
 .loupe {
   margin-right: -180px;
 }
@@ -405,11 +399,14 @@ li{
 }
 .customers__header {
   display: flex;
-  font-size: 20px !important;
+  font-size: 22px !important;
 }
 .customers__text {
   font-size: 16px !important;
   display: flex !important;
+}
+.subscribe {
+  margin-top: 100px !important;
 }
 }
 
@@ -578,7 +575,6 @@ margin-top: 40px;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 48px;
   color: #242424;
 }
 
@@ -885,15 +881,14 @@ margin-top: 40px;
 }
 
 .name__input {
-  margin-left: 420px;
+  margin-left: 20px;
   border: none;
   font-size: 16px;
 }
 
 .email_img {
   position: absolute;
-  margin-top: 62px;
-  margin-left: 395px;
+  margin-top: 63px;
 }
 
 .email_button {
@@ -999,3 +994,6 @@ hr{
   margin-right: 12px;
 }
 
+.form-group {
+  justify-self: center;
+}
