@@ -339,8 +339,8 @@ li{
   .customers__header br{
     display: none;
   }
-  .email_img {
-  margin-top: 65px !important;
+.email_img {
+  margin-top: 69px !important;
   margin-left: 10px !important;
 }
 .name__input {
@@ -348,9 +348,14 @@ li{
   margin-top: 65px !important;
   margin-left: 30px !important;
   font-size: 13px !important;
+  width: 130px;
 }
 .email_button {
-  margin-top: 90px !important;
+  margin-top: 50px !important;
+  margin-left: 180px !important;
+}
+.form-group {
+  justify-self: left !important;
 }
 }
 
