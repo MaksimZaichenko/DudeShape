@@ -469,6 +469,11 @@ margin-top: 140px;
 
 .trusted-img{
   align-items: center;
+  transition: 0.3s
+}
+
+.trusted-img:hover{
+  transform: scale(1.2);
 }
 
 .companies{
@@ -990,7 +995,6 @@ hr{
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-  color: #859395;
   border: none;
   margin-left: 22px;
 }

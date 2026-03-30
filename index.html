@@ -36,7 +36,7 @@
   </header>
     <main>
             <div class="container">
-            <div class="home">
+            <div class="home" id="home">
                 <img class="main-img" src="images/Rectangle 91.jpg">
                 <div class="main-text">
                     <h1 class="main-title">We Help You Make Modern Furniture</h1>
@@ -316,11 +316,11 @@
                     <h1 class="subscribe_main-text">Subscribe to get the latest news <br>about us</h1>
                     <p class="subscribe_p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br> eiusmod tempor incididunt ut labore at dolore.</p>
                 </div>
-                <form class="contactForm" id="contactForm" novalidate>
+                <form class="contactForm" id="contactForm" action="/submit">
         <div class="form-group">
             <img src="images/Group 16.png" class="email_img">
             <label class="name" for="email"></label>
-            <input placeholder="Enter your email" class="name__input" id="email" name="email" type="email">
+            <input placeholder="Enter your email" class="name__input" id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
             <button class="email_button">Register</button>
         </div>
         </form>
@@ -341,10 +341,10 @@
                 </p>
                 <p class="footer__item-text2">Follow Us :</p>
                 <div class="img__box">
-                    <img src="images/facebook 2.png">
-                    <img src="images/twitter 2.png">
-                    <img src="images/instagram 1.png">
-                    <img src="images/youtube 1.png">
+                    <a href="https://www.facebook.com/"><img src="images/facebook 2.png"></a>
+                    <a href="https://x.com/"><img src="images/twitter 2.png"></a>
+                    <a href="https://www.instagram.com/"><img src="images/instagram 1.png"></a>
+                    <a href="https://www.youtube.com/"><img src="images/youtube 1.png"></a>
                 </div>
             </div>
             </div>
@@ -371,15 +371,19 @@
                 <h2 class="footer__item-header">Subscribe</h2>
                 <p class="footer__item-text1">Subscribe to get the latest <br> news from us</p>
                 <div class="footer__form">
+                    <form id="contactForm" action="/submit">
                     <input type="email" placeholder="Email Address" class="footer__input">
+                    <button>
                     <img src="images/Frame 54.png" class="footer__img btn" alt="strelka">
+                    </button>
+                    </form>
                 </div>
             </div>
             </div>
         </div>
     </div>
     <hr>
-    <p class="last__words">Copyright @ 2021. Crafted with love.</p>
+    <p class="last__words">Copyright @ 2026. Crafted with love.</p>
   </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
